@@ -1,0 +1,1053 @@
+"FID","TURN","source","target"
+"20_NLP_10_B_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_interest; agree_to_try; thank; end_conversation}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: With insulin, you can have more flexibility in your meal timing and portions as it helps maintain stable blood sugar levels throughout the day.
+Client: I am willing to give insulin a try considering its benefits.
+Counselor: Thank you for considering insulin; it could greatly improve your diabetes management.
+Client: Goodbye, and thank you for your guidance.
+Answer: ","end_conversation"
+"20_NLP_10_B_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {thank; end_conversation; end_conversation; end_conversation}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Thank you for considering insulin; it could greatly improve your diabetes management.
+Client: Goodbye, and thank you for your guidance.
+Counselor: Goodbye, and take care!
+Client: Goodbye, and take care!
+Answer: ","end_conversation"
+"31_NLP_21_A2_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"31_NLP_21_A2_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: hi
+Client: Hello!
+Answer: ","propose"
+"31_NLP_21_A2_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; propose; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: hi
+Client: Hello!
+Counselor: Have you considered trying insulin to achieve better blood sugar control and prevent potential complications?
+Client: What steps can we take to lower my blood sugar levels to the target range of 7 mmol/L?
+Answer: ","suggest_a_solution"
+"31_NLP_21_A2_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; request_information; suggest_a_solution; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you considered trying insulin to achieve better blood sugar control and prevent potential complications?
+Client: What steps can we take to lower my blood sugar levels to the target range of 7 mmol/L?
+Counselor: How about trying insulin along with your current medication and lifestyle changes to achieve those target levels?
+Client: Is it safe to increase my insulin dosage, and how can I manage the potential side effects?
+Answer: ","offer_relief"
+"31_NLP_21_A2_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; request_information; offer_relief; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: How about trying insulin along with your current medication and lifestyle changes to achieve those target levels?
+Client: Is it safe to increase my insulin dosage, and how can I manage the potential side effects?
+Counselor: Yes, increasing your insulin dosage slightly under medical supervision is safe, and managing potential side effects involves regular monitoring and making necessary lifestyle adjustments.
+Client: What alternatives do I have to manage my blood sugar levels without increasing my insulin dosage?
+Answer: ","propose"
+"31_NLP_21_A2_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Yes, increasing your insulin dosage slightly under medical supervision is safe, and managing potential side effects involves regular monitoring and making necessary lifestyle adjustments.
+Client: What alternatives do I have to manage my blood sugar levels without increasing my insulin dosage?
+Counselor: Increasing the dosage of your current medication and incorporating lifestyle changes could be alternatives, but if those are insufficient, transitioning to insulin may be necessary for better control.
+Client: I'm not comfortable trying insulin right now.
+Answer: ","emotion_appeal"
+"31_NLP_21_A2_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Increasing the dosage of your current medication and incorporating lifestyle changes could be alternatives, but if those are insufficient, transitioning to insulin may be necessary for better control.
+Client: I'm not comfortable trying insulin right now.
+Counselor: I understand your hesitation, but starting insulin could significantly improve your health and help prevent serious complications.
+Client: I still don't feel ready to start insulin.
+Answer: ","ask_concerns"
+"31_NLP_21_A2_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation, but starting insulin could significantly improve your health and help prevent serious complications.
+Client: I still don't feel ready to start insulin.
+Counselor: Can you share more about your concerns regarding starting insulin?
+Client: I'm worried about managing potential side effects and the impact on my daily routine.
+Answer: ","offer_relief"
+"31_NLP_21_A2_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; deny_to_try; offer_relief; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Can you share more about your concerns regarding starting insulin?
+Client: I'm worried about managing potential side effects and the impact on my daily routine.
+Counselor: I understand your concerns, but with proper monitoring and support, we can manage any potential side effects and help you integrate insulin smoothly into your daily routine.
+Client: I appreciate your support, but I'm still not ready to start insulin right now.
+Answer: ","support"
+"31_NLP_21_A2_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; deny_to_try; support; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your concerns, but with proper monitoring and support, we can manage any potential side effects and help you integrate insulin smoothly into your daily routine.
+Client: I appreciate your support, but I'm still not ready to start insulin right now.
+Counselor: I understand and I'm here to support you in finding the best solution for your health.
+Client: Thank you for understanding, but I'm still not ready to start insulin at this point.
+Answer: ","motivate"
+"31_NLP_21_A2_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {support; deny_to_try; motivate; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand and I'm here to support you in finding the best solution for your health.
+Client: Thank you for understanding, but I'm still not ready to start insulin at this point.
+Counselor: I hear you, but please consider that achieving better blood sugar control with insulin can significantly enhance your quality of life and prevent future complications.
+Client: I understand the benefits, but I'm still not ready to try insulin right now.
+Answer: ","ask_concerns"
+"74_NLP_43_B_conv.json","2","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello
+Answer: ","greet"
+"74_NLP_43_B_conv.json","4","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello
+Counselor: Hello! How are you doing today?
+Client: I'm doing okay, but I have some concerns about managing my diabetes.
+Answer: ","ask_concerns"
+"74_NLP_43_B_conv.json","6","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; express_interest; ask_concerns; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello! How are you doing today?
+Client: I'm doing okay, but I have some concerns about managing my diabetes.
+Counselor: I understand your concerns; could you share more about what's specifically worrying you?
+Client: What can be done to better control my high blood sugar levels, which remain between 10 to 14 mmol/L despite dietary efforts?
+Answer: ","propose"
+"74_NLP_43_B_conv.json","8","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your concerns; could you share more about what's specifically worrying you?
+Client: What can be done to better control my high blood sugar levels, which remain between 10 to 14 mmol/L despite dietary efforts?
+Counselor: While diet and lifestyle changes are essential, trying insulin could help you achieve better control of your blood sugar levels.
+Client: I'm not sure about trying insulin just yet.
+Answer: ","emotion_appeal"
+"74_NLP_43_B_conv.json","10","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: While diet and lifestyle changes are essential, trying insulin could help you achieve better control of your blood sugar levels.
+Client: I'm not sure about trying insulin just yet.
+Counselor: I understand your hesitation, but insulin could significantly improve your health and reduce the risk of long-term complications.
+Client: I still feel hesitant about starting insulin.
+Answer: ","ask_concerns"
+"74_NLP_43_B_conv.json","12","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation, but insulin could significantly improve your health and reduce the risk of long-term complications.
+Client: I still feel hesitant about starting insulin.
+Counselor: What specifically makes you hesitant about starting insulin?
+Client: I'm worried about managing my diabetes more effectively during high-stress periods to avoid missing medication doses.
+Answer: ","offer_relief"
+"74_NLP_43_B_conv.json","14","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; deny_to_try; offer_relief; affirm}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: What specifically makes you hesitant about starting insulin?
+Client: I'm worried about managing my diabetes more effectively during high-stress periods to avoid missing medication doses.
+Counselor: I understand your worries, but modern insulin delivery methods are designed to be easy and convenient, even during high-stress periods.
+Client: That sounds helpful, but I still have concerns.
+Answer: ","ask_concerns"
+"74_NLP_43_B_conv.json","16","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; affirm; ask_concerns; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your worries, but modern insulin delivery methods are designed to be easy and convenient, even during high-stress periods.
+Client: That sounds helpful, but I still have concerns.
+Counselor: Could you tell me more about your specific concerns?
+Client: What steps can I take to reduce frequent urination associated with my high blood sugar levels?
+Answer: ","propose"
+"74_NLP_43_B_conv.json","18","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; express_interest; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Could you tell me more about your specific concerns?
+Client: What steps can I take to reduce frequent urination associated with my high blood sugar levels?
+Counselor: Starting insulin could help bring your blood sugar levels down and reduce symptoms like frequent urination.
+Client: I still don't feel ready to try insulin yet.
+Answer: ","emotion_appeal"
+"74_NLP_43_B_conv.json","20","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Starting insulin could help bring your blood sugar levels down and reduce symptoms like frequent urination.
+Client: I still don't feel ready to try insulin yet.
+Counselor: I understand it's a big step, but managing your blood sugar more effectively with insulin can greatly improve your overall well-being and quality of life.
+Client: I appreciate that, but I'm still not ready to try insulin at this point.
+Answer: ","emotion_appeal"
+"37_NLP_25_A_conv.json","2","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Good morning!
+Answer: ","greet"
+"37_NLP_25_A_conv.json","4","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Good morning!
+Counselor: Good morning! How are you feeling today?
+Client: What additional steps can we take to better manage my high blood sugar levels, given that current medications at maximum dosage are not effective?
+Answer: ","propose"
+"37_NLP_25_A_conv.json","6","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Good morning! How are you feeling today?
+Client: What additional steps can we take to better manage my high blood sugar levels, given that current medications at maximum dosage are not effective?
+Counselor: Have you considered trying insulin to help better manage your blood sugar levels?
+Client: I'm reluctant to start insulin injections due to discomfort and inconvenience.
+Answer: ","suggest_a_solution"
+"37_NLP_25_A_conv.json","8","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; suggest_a_solution; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you considered trying insulin to help better manage your blood sugar levels?
+Client: I'm reluctant to start insulin injections due to discomfort and inconvenience.
+Counselor: Would you be open to considering once-a-day insulin injections that you can administer at home to minimize discomfort and inconvenience?
+Client: I'm still not sure about trying insulin injections, even if it's just once a day.
+Answer: ","logical_appeal"
+"37_NLP_25_A_conv.json","10","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; deny_to_try; logical_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Would you be open to considering once-a-day insulin injections that you can administer at home to minimize discomfort and inconvenience?
+Client: I'm still not sure about trying insulin injections, even if it's just once a day.
+Counselor: Using insulin can effectively lower your blood sugar levels and reduce the risk of long-term complications from high glucose readings.
+Client: I'm still hesitant and would like to know if there are other alternatives or strategies.
+Answer: ","suggest_a_solution"
+"37_NLP_25_A_conv.json","12","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; deny_to_try; suggest_a_solution; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Using insulin can effectively lower your blood sugar levels and reduce the risk of long-term complications from high glucose readings.
+Client: I'm still hesitant and would like to know if there are other alternatives or strategies.
+Counselor: Would setting reminders on your phone or combining insulin injections with other daily habits help you build a routine and make the process easier?
+Client: I'm really not comfortable with starting insulin injections right now.
+Answer: ","motivate"
+"37_NLP_25_A_conv.json","14","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; deny_to_try; motivate; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Would setting reminders on your phone or combining insulin injections with other daily habits help you build a routine and make the process easier?
+Client: I'm really not comfortable with starting insulin injections right now.
+Counselor: Taking proactive steps like trying insulin can significantly improve your health and prevent serious complications down the road.
+Client: I appreciate the information, but I'm not comfortable with starting insulin injections at this time.
+Answer: ","express_concern"
+"37_NLP_25_A_conv.json","16","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {motivate; deny_to_try; express_concern; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Taking proactive steps like trying insulin can significantly improve your health and prevent serious complications down the road.
+Client: I appreciate the information, but I'm not comfortable with starting insulin injections at this time.
+Counselor: I understand your concerns, but I'm worried about the potential long-term risks of not managing your blood sugar effectively.
+Client: I understand the risks, but I'm still not comfortable with starting insulin injections.
+Answer: ","ask_concerns"
+"37_NLP_25_A_conv.json","18","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_concern; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your concerns, but I'm worried about the potential long-term risks of not managing your blood sugar effectively.
+Client: I understand the risks, but I'm still not comfortable with starting insulin injections.
+Counselor: Can you share more about what specifically makes you uncomfortable with starting insulin injections?
+Client: I find the thought of needles and the daily routine quite overwhelming.
+Answer: ","offer_relief"
+"37_NLP_25_A_conv.json","20","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; deny_to_try; offer_relief; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Can you share more about what specifically makes you uncomfortable with starting insulin injections?
+Client: I find the thought of needles and the daily routine quite overwhelming.
+Counselor: I understand how overwhelming it can feel, but using fine needles can make the process less painful and more manageable.
+Client: I still don't feel ready to start using insulin injections.
+Answer: ","ask_about_consequence"
+"71_NLP_42_A_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"71_NLP_42_A_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hi there! Good afternoon!
+Client: Good afternoon!
+Answer: ","propose"
+"71_NLP_42_A_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hi there! Good afternoon!
+Client: Good afternoon!
+Counselor: Have you considered trying insulin to help achieve better control over your blood sugar levels?
+Client: I'm not sure about trying insulin due to some concerns I have.
+Answer: ","ask_concerns"
+"71_NLP_42_A_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; ask_concerns; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you considered trying insulin to help achieve better control over your blood sugar levels?
+Client: I'm not sure about trying insulin due to some concerns I have.
+Counselor: What specific concerns do you have about starting insulin?
+Client: What can be done to help me improve my compliance with my diabetes medication?
+Answer: ","suggest_a_solution"
+"71_NLP_42_A_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; request_information; suggest_a_solution; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: What specific concerns do you have about starting insulin?
+Client: What can be done to help me improve my compliance with my diabetes medication?
+Counselor: Would you consider adjusting your medication timing and using more convenient forms of insulin like insulin pens to fit your busy schedule?
+Client: How should I adjust my medication schedule given my irregular eating pattern?
+Answer: ","propose"
+"71_NLP_42_A_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; request_information; propose; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Would you consider adjusting your medication timing and using more convenient forms of insulin like insulin pens to fit your busy schedule?
+Client: How should I adjust my medication schedule given my irregular eating pattern?
+Counselor: You might find it helpful to set aside brief periods during work hours to eat and consider packing meals to maintain consistent blood sugar levels.
+Client: Can you address my concerns about insulin side effects and clarify any misconceptions I might have?
+Answer: ","offer_relief"
+"71_NLP_42_A_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; request_information; offer_relief; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: You might find it helpful to set aside brief periods during work hours to eat and consider packing meals to maintain consistent blood sugar levels.
+Client: Can you address my concerns about insulin side effects and clarify any misconceptions I might have?
+Counselor: It's important to know that insulin is not always permanent, and with disciplined diet and lifestyle changes, it may be reduced or stopped.
+Client: Could you tell me more about insulin side effects?
+Answer: ","provide_insulin_information"
+"71_NLP_42_A_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; express_interest; provide_insulin_information; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: It's important to know that insulin is not always permanent, and with disciplined diet and lifestyle changes, it may be reduced or stopped.
+Client: Could you tell me more about insulin side effects?
+Counselor: Common side effects of insulin include low blood sugar, weight gain, and injection site reactions, but these can often be managed with proper monitoring and adjustments.
+Client: I'm still hesitant to try insulin due to these side effects.
+Answer: ","emotion_appeal"
+"71_NLP_42_A_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Common side effects of insulin include low blood sugar, weight gain, and injection site reactions, but these can often be managed with proper monitoring and adjustments.
+Client: I'm still hesitant to try insulin due to these side effects.
+Counselor: I understand your concerns, but starting insulin could significantly improve your health and prevent complications, allowing you to live a fuller life.
+Client: I still don't feel comfortable trying insulin right now.
+Answer: ","express_concern"
+"71_NLP_42_A_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; express_concern; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your concerns, but starting insulin could significantly improve your health and prevent complications, allowing you to live a fuller life.
+Client: I still don't feel comfortable trying insulin right now.
+Counselor: I'm worried that without trying insulin, it might be challenging to achieve optimal glycemic control and prevent complications.
+Client: I appreciate your concern, but I'm still not convinced that insulin is the right choice for me at this moment.
+Answer: ","ask_about_consequence"
+"71_NLP_42_A_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_concern; deny_to_try; ask_about_consequence; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I'm worried that without trying insulin, it might be challenging to achieve optimal glycemic control and prevent complications.
+Client: I appreciate your concern, but I'm still not convinced that insulin is the right choice for me at this moment.
+Counselor: What do you think might happen if your blood sugar levels remain uncontrolled?
+Client: I understand the risks, but I'm still not ready to try insulin.
+Answer: ","emotion_appeal"
+"73_NLP_43_A_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"73_NLP_43_A_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Good morning!
+Client: Good morning!
+Answer: ","propose"
+"73_NLP_43_A_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Good morning!
+Client: Good morning!
+Counselor: Have you considered trying insulin to better manage your blood sugar levels?
+Client: I'm not sure about trying insulin due to concerns about frequent hunger, hypoglycemia, and my high blood sugar levels despite multiple medications.
+Answer: ","propose"
+"73_NLP_43_A_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; propose; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you considered trying insulin to better manage your blood sugar levels?
+Client: I'm not sure about trying insulin due to concerns about frequent hunger, hypoglycemia, and my high blood sugar levels despite multiple medications.
+Counselor: Starting insulin might be a good option for you as it can effectively lower blood sugar levels when other medications are not enough, and side effects like increased hunger can be managed with a regular meal schedule.
+Client: What can be done to manage frequent hunger and symptoms of hypoglycemia, particularly when meals or medications are delayed?
+Answer: ","suggest_a_solution"
+"73_NLP_43_A_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; request_information; suggest_a_solution; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Starting insulin might be a good option for you as it can effectively lower blood sugar levels when other medications are not enough, and side effects like increased hunger can be managed with a regular meal schedule.
+Client: What can be done to manage frequent hunger and symptoms of hypoglycemia, particularly when meals or medications are delayed?
+Counselor: By maintaining a regular meal schedule and being mindful of the glycemic index of foods consumed, you can manage hunger and reduce hypoglycemia symptoms.
+Client: What is the correct timing for taking diabetes medication in relation to meals to avoid hypoglycemia and ensure proper blood sugar control?
+Answer: ","provide_information"
+"73_NLP_43_A_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; request_information; provide_information; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: By maintaining a regular meal schedule and being mindful of the glycemic index of foods consumed, you can manage hunger and reduce hypoglycemia symptoms.
+Client: What is the correct timing for taking diabetes medication in relation to meals to avoid hypoglycemia and ensure proper blood sugar control?
+Counselor: Taking diabetes medication at the same time each day and coordinating it with your meal schedule can help avoid hypoglycemia and ensure proper blood sugar control.
+Client: Why are my blood sugar levels, including HbA1c, still high despite being on multiple diabetes medications, and what adjustments can be made to my treatment plan?
+Answer: ","propose"
+"73_NLP_43_A_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_information; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Taking diabetes medication at the same time each day and coordinating it with your meal schedule can help avoid hypoglycemia and ensure proper blood sugar control.
+Client: Why are my blood sugar levels, including HbA1c, still high despite being on multiple diabetes medications, and what adjustments can be made to my treatment plan?
+Counselor: Switching to insulin might be necessary to achieve better glycemic control if your blood sugar levels remain high despite multiple medications.
+Client: I'm still hesitant to try insulin despite these considerations.
+Answer: ","emotion_appeal"
+"73_NLP_43_A_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Switching to insulin might be necessary to achieve better glycemic control if your blood sugar levels remain high despite multiple medications.
+Client: I'm still hesitant to try insulin despite these considerations.
+Counselor: I understand your hesitations, but trying insulin could significantly improve your quality of life by better managing your blood sugar levels.
+Client: I'm still not convinced that insulin is the right step for me.
+Answer: ","logical_appeal"
+"73_NLP_43_A_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; logical_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitations, but trying insulin could significantly improve your quality of life by better managing your blood sugar levels.
+Client: I'm still not convinced that insulin is the right step for me.
+Counselor: Considering that your blood sugar levels and HbA1c remain high despite multiple medications, switching to insulin could provide the control you need to prevent long-term complications.
+Client: I still don't feel ready to try insulin just yet.
+Answer: ","express_concern"
+"73_NLP_43_A_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; deny_to_try; express_concern; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Considering that your blood sugar levels and HbA1c remain high despite multiple medications, switching to insulin could provide the control you need to prevent long-term complications.
+Client: I still don't feel ready to try insulin just yet.
+Counselor: I understand your apprehension, but I'm concerned about the long-term complications that could arise from high blood sugar levels.
+Client: I appreciate your concern, but I'm still not ready to try insulin.
+Answer: ","ask_concerns"
+"73_NLP_43_A_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_concern; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your apprehension, but I'm concerned about the long-term complications that could arise from high blood sugar levels.
+Client: I appreciate your concern, but I'm still not ready to try insulin.
+Counselor: Can you share more about what is holding you back from trying insulin?
+Client: I'm worried about managing frequent hunger and hypoglycemia.
+Answer: ","offer_relief"
+"16_NLP_08_B_conv.json","2","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello
+Answer: ","greet"
+"16_NLP_08_B_conv.json","4","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello
+Counselor: Hello! How are you doing today?
+Client: Why isn't my current medication effectively controlling my blood sugar levels despite being at the maximum dosage?
+Answer: ","logical_appeal"
+"16_NLP_08_B_conv.json","6","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; request_information; logical_appeal; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello! How are you doing today?
+Client: Why isn't my current medication effectively controlling my blood sugar levels despite being at the maximum dosage?
+Counselor: Increasing insulin dosage might be necessary even if current levels seem adequate to achieve better blood sugar control.
+Client: Do I really need to start insulin, and what are the implications of doing so?
+Answer: ","propose"
+"16_NLP_08_B_conv.json","8","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; request_information; propose; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Increasing insulin dosage might be necessary even if current levels seem adequate to achieve better blood sugar control.
+Client: Do I really need to start insulin, and what are the implications of doing so?
+Counselor: Given your situation, trying insulin can help achieve optimal glycemic control and prevent complications.
+Client: Can you explain again the potential complications of poorly controlled diabetes and why additional treatment measures are necessary?
+Answer: ","provide_insulin_information"
+"16_NLP_08_B_conv.json","10","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; request_information; provide_insulin_information; acknowledge}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Given your situation, trying insulin can help achieve optimal glycemic control and prevent complications.
+Client: Can you explain again the potential complications of poorly controlled diabetes and why additional treatment measures are necessary?
+Counselor: Poorly controlled diabetes can lead to serious complications such as neuropathy, kidney damage, cardiovascular diseases, and vision problems, so additional treatment measures like insulin might be necessary to maintain target blood sugar levels consistently.
+Client: I understand the potential complications.
+Answer: ","propose"
+"16_NLP_08_B_conv.json","12","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; acknowledge; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Poorly controlled diabetes can lead to serious complications such as neuropathy, kidney damage, cardiovascular diseases, and vision problems, so additional treatment measures like insulin might be necessary to maintain target blood sugar levels consistently.
+Client: I understand the potential complications.
+Counselor: Since you understand the complications, trying insulin could be a crucial step in maintaining your health and preventing these issues.
+Client: I'm still hesitant about starting insulin despite understanding the complications.
+Answer: ","emotion_appeal"
+"16_NLP_08_B_conv.json","14","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Since you understand the complications, trying insulin could be a crucial step in maintaining your health and preventing these issues.
+Client: I'm still hesitant about starting insulin despite understanding the complications.
+Counselor: I understand your hesitation, but taking this step could significantly improve your quality of life and help you avoid serious health issues in the future.
+Client: I still don't feel ready to start insulin yet.
+Answer: ","ask_concerns"
+"16_NLP_08_B_conv.json","16","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation, but taking this step could significantly improve your quality of life and help you avoid serious health issues in the future.
+Client: I still don't feel ready to start insulin yet.
+Counselor: Can you share what specifically makes you hesitant about starting insulin?
+Client: I am worried about the potential side effects and the daily management of insulin injections.
+Answer: ","offer_relief"
+"16_NLP_08_B_conv.json","18","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; deny_to_try; offer_relief; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Can you share what specifically makes you hesitant about starting insulin?
+Client: I am worried about the potential side effects and the daily management of insulin injections.
+Counselor: I understand your concerns, but many people successfully manage insulin therapy with minimal side effects and find it greatly improves their health.
+Client: I appreciate the information, but I'm not ready to start insulin at this time.
+Answer: ","ask_concerns"
+"16_NLP_08_B_conv.json","20","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your concerns, but many people successfully manage insulin therapy with minimal side effects and find it greatly improves their health.
+Client: I appreciate the information, but I'm not ready to start insulin at this time.
+Counselor: I understand; are there other concerns you have regarding starting insulin?
+Client: No, I just don't feel ready to start insulin.
+Answer: ","support"
+"34_NLP_22_B_conv.json","2","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello
+Answer: ","greet"
+"34_NLP_22_B_conv.json","4","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello
+Counselor: Hello! How are you doing today?
+Client: How can we better manage my hypoglycemia attacks, especially since they occur unpredictably during daily activities like driving or working?
+Answer: ","offer_relief"
+"34_NLP_22_B_conv.json","6","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; request_information; offer_relief; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello! How are you doing today?
+Client: How can we better manage my hypoglycemia attacks, especially since they occur unpredictably during daily activities like driving or working?
+Counselor: Proper education on insulin administration, ensuring the correct dosage and injection sites, along with regular monitoring and consistent communication with healthcare providers, can help manage your concerns about hypoglycemia.
+Client: What are some practical dietary adjustments I can make given my busy schedule and reliance on convenient food options from hawker centers?
+Answer: ","suggest_a_solution"
+"34_NLP_22_B_conv.json","8","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; request_information; suggest_a_solution; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Proper education on insulin administration, ensuring the correct dosage and injection sites, along with regular monitoring and consistent communication with healthcare providers, can help manage your concerns about hypoglycemia.
+Client: What are some practical dietary adjustments I can make given my busy schedule and reliance on convenient food options from hawker centers?
+Counselor: You can adjust your insulin regimen by taking it with whatever food you consume, even if it's just a small amount like bread, and regularly monitor and adjust based on your blood sugar levels.
+Client: Are there alternatives to insulin injections, such as oral medications, given my fear of self-administering injections?
+Answer: ","provide_insulin_information"
+"34_NLP_22_B_conv.json","10","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; request_information; provide_insulin_information; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: You can adjust your insulin regimen by taking it with whatever food you consume, even if it's just a small amount like bread, and regularly monitor and adjust based on your blood sugar levels.
+Client: Are there alternatives to insulin injections, such as oral medications, given my fear of self-administering injections?
+Counselor: Yes, there are alternatives like oral medications and lifestyle changes that can help manage blood sugar levels and may reduce the need for multiple daily injections.
+Client: I'm interested in learning more about the oral medications and lifestyle changes that could help manage my blood sugar levels.
+Answer: ","express_interest"
+"34_NLP_22_B_conv.json","12","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; express_interest; express_interest; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Yes, there are alternatives like oral medications and lifestyle changes that can help manage blood sugar levels and may reduce the need for multiple daily injections.
+Client: I'm interested in learning more about the oral medications and lifestyle changes that could help manage my blood sugar levels.
+Counselor: I'm glad to hear that you're interested in exploring oral medications and lifestyle changes to help manage your blood sugar levels.
+Client: Yes, I'm keen to know more about these alternatives to insulin injections.
+Answer: ","express_interest"
+"34_NLP_22_B_conv.json","14","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_interest; express_interest; express_interest; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I'm glad to hear that you're interested in exploring oral medications and lifestyle changes to help manage your blood sugar levels.
+Client: Yes, I'm keen to know more about these alternatives to insulin injections.
+Counselor: Great to hear that you're keen; let's discuss how specific oral medications and lifestyle adjustments can fit into your daily routine.
+Client: I would love to hear more about these specific oral medications and lifestyle adjustments.
+Answer: ","express_interest"
+"34_NLP_22_B_conv.json","16","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_interest; express_interest; express_interest; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Great to hear that you're keen; let's discuss how specific oral medications and lifestyle adjustments can fit into your daily routine.
+Client: I would love to hear more about these specific oral medications and lifestyle adjustments.
+Counselor: I'm excited to go over the specific oral medications and lifestyle adjustments with you.
+Client: I'm really curious about these oral medications and how they can fit into my busy life.
+Answer: ","provide_insulin_information"
+"34_NLP_22_B_conv.json","18","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_interest; express_interest; provide_insulin_information; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I'm excited to go over the specific oral medications and lifestyle adjustments with you.
+Client: I'm really curious about these oral medications and how they can fit into my busy life.
+Counselor: Many oral medications, like metformin, can help manage blood sugar levels, and combining these with lifestyle changes such as regular physical activity and balanced meals can significantly improve your diabetes management.
+Client: I'm definitely interested in hearing more about how metformin and these lifestyle changes can be integrated into my routine.
+Answer: ","express_interest"
+"34_NLP_22_B_conv.json","20","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; express_interest; express_interest; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Many oral medications, like metformin, can help manage blood sugar levels, and combining these with lifestyle changes such as regular physical activity and balanced meals can significantly improve your diabetes management.
+Client: I'm definitely interested in hearing more about how metformin and these lifestyle changes can be integrated into my routine.
+Counselor: I'm thrilled to hear your interest; let's dive deeper into how metformin and practical lifestyle changes can seamlessly integrate into your busy schedule.
+Client: I'm really eager to understand how metformin and these lifestyle adjustments can work for me day-to-day.
+Answer: ","propose"
+"28_NLP_17_B_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"28_NLP_17_B_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello, nice to see you here
+Client: Hello, thank you for seeing me today.
+Answer: ","propose"
+"28_NLP_17_B_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello, nice to see you here
+Client: Hello, thank you for seeing me today.
+Counselor: Have you considered trying insulin as it can provide better control over your blood sugar levels and help prevent long-term complications?
+Client: Can we explore alternatives to insulin therapy for managing my diabetes?
+Answer: ","propose"
+"28_NLP_17_B_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; propose; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you considered trying insulin as it can provide better control over your blood sugar levels and help prevent long-term complications?
+Client: Can we explore alternatives to insulin therapy for managing my diabetes?
+Counselor: While increasing oral medications and making lifestyle changes are important, trying insulin could offer you more stable and effective blood sugar control.
+Client: How effective is managing diabetes through diet and medication alone?
+Answer: ","provide_insulin_information"
+"28_NLP_17_B_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; request_information; provide_insulin_information; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: While increasing oral medications and making lifestyle changes are important, trying insulin could offer you more stable and effective blood sugar control.
+Client: How effective is managing diabetes through diet and medication alone?
+Counselor: Although diet and medication can significantly improve blood sugar levels, transitioning to insulin may be necessary if these methods are insufficient for optimal diabetes management.
+Client: What strategies can I use to manage occasional indulgences in sweets without compromising my diabetes control?
+Answer: ","suggest_a_solution"
+"28_NLP_17_B_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; deny_to_try; suggest_a_solution; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Although diet and medication can significantly improve blood sugar levels, transitioning to insulin may be necessary if these methods are insufficient for optimal diabetes management.
+Client: What strategies can I use to manage occasional indulgences in sweets without compromising my diabetes control?
+Counselor: Incorporating regular physical activity and closely monitoring your blood sugar levels can help manage occasional indulgences in sweets more effectively.
+Client: I'm still not convinced about trying insulin at this point.
+Answer: ","logical_appeal"
+"28_NLP_17_B_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; deny_to_try; logical_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Incorporating regular physical activity and closely monitoring your blood sugar levels can help manage occasional indulgences in sweets more effectively.
+Client: I'm still not convinced about trying insulin at this point.
+Counselor: Given the risks associated with consistently high glucose readings and potential long-term complications, insulin can offer a more reliable way to keep your blood sugar levels in check.
+Client: I appreciate the information, but I'd like to avoid insulin for now.
+Answer: ","ask_about_consequence"
+"28_NLP_17_B_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; deny_to_try; ask_about_consequence; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Given the risks associated with consistently high glucose readings and potential long-term complications, insulin can offer a more reliable way to keep your blood sugar levels in check.
+Client: I appreciate the information, but I'd like to avoid insulin for now.
+Counselor: Have you considered the potential long-term complications of not achieving optimal blood sugar control?
+Client: I understand the risks, but I still prefer to avoid insulin at this time.
+Answer: ","logical_appeal"
+"28_NLP_17_B_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_about_consequence; deny_to_try; logical_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you considered the potential long-term complications of not achieving optimal blood sugar control?
+Client: I understand the risks, but I still prefer to avoid insulin at this time.
+Counselor: While it's understandable to want to avoid insulin, it's important to consider that using insulin can provide a more consistent and effective way to manage your blood sugar levels, thereby reducing the risk of long-term complications.
+Client: I hear you, but I still prefer to look for other options before considering insulin.
+Answer: ","suggest_a_solution"
+"28_NLP_17_B_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; deny_to_try; suggest_a_solution; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: While it's understandable to want to avoid insulin, it's important to consider that using insulin can provide a more consistent and effective way to manage your blood sugar levels, thereby reducing the risk of long-term complications.
+Client: I hear you, but I still prefer to look for other options before considering insulin.
+Counselor: Would you be open to closely monitoring your blood sugar levels and reassessing the need for insulin if your current methods aren't providing optimal control?
+Client: I'd prefer to stick with my current methods and explore other alternatives first.
+Answer: ","ask_about_consequence"
+"28_NLP_17_B_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; deny_to_try; ask_about_consequence; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Would you be open to closely monitoring your blood sugar levels and reassessing the need for insulin if your current methods aren't providing optimal control?
+Client: I'd prefer to stick with my current methods and explore other alternatives first.
+Counselor: What do you think might happen if your current methods don't provide the control you need?
+Client: I understand the concern, but I still want to avoid insulin.
+Answer: ","emotion_appeal"
+"64_NLP_38_B_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"64_NLP_38_B_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor:  Hello, How have you been?
+Client: I'm actually hesitant about trying insulin due to some concerns I have.
+Answer: ","ask_concerns"
+"64_NLP_38_B_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; deny_to_try; ask_concerns; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor:  Hello, How have you been?
+Client: I'm actually hesitant about trying insulin due to some concerns I have.
+Counselor: I understand your hesitation; could you share what specific concerns you have about trying insulin?
+Client: How can I prevent low blood sugar during long walks without limiting my exercise or consuming sweets?
+Answer: ","suggest_a_solution"
+"64_NLP_38_B_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; request_information; suggest_a_solution; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation; could you share what specific concerns you have about trying insulin?
+Client: How can I prevent low blood sugar during long walks without limiting my exercise or consuming sweets?
+Counselor: Have you considered adjusting your insulin dosage or timing your meals to better match your physical activity?
+Client: That sounds interesting; could you tell me more about adjusting insulin dosage and timing meals for exercise?
+Answer: ","provide_insulin_information"
+"64_NLP_38_B_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; express_interest; provide_insulin_information; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you considered adjusting your insulin dosage or timing your meals to better match your physical activity?
+Client: That sounds interesting; could you tell me more about adjusting insulin dosage and timing meals for exercise?
+Counselor: Adjusting insulin dosage and timing meals around exercise can help maintain blood sugar levels, and your healthcare provider can guide you to find the right balance.
+Client: Are there more affordable and less painful ways to monitor my blood sugar at home?
+Answer: ","provide_insulin_information"
+"64_NLP_38_B_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; request_information; provide_insulin_information; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Adjusting insulin dosage and timing meals around exercise can help maintain blood sugar levels, and your healthcare provider can guide you to find the right balance.
+Client: Are there more affordable and less painful ways to monitor my blood sugar at home?
+Counselor: Monitoring your blood sugar at home can be affordable with options like glucose meters and test strips, and it’s crucial for evaluating the effectiveness of diet, exercise, and any medication adjustments.
+Client: What additional steps can I take to reduce my blood sugar levels to below 6.5?
+Answer: ","propose"
+"64_NLP_38_B_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Monitoring your blood sugar at home can be affordable with options like glucose meters and test strips, and it’s crucial for evaluating the effectiveness of diet, exercise, and any medication adjustments.
+Client: What additional steps can I take to reduce my blood sugar levels to below 6.5?
+Counselor: If oral medications and lifestyle adjustments are insufficient, transitioning to insulin may be considered to better control blood sugar levels and prevent complications.
+Client: I'm still not comfortable with trying insulin despite the benefits.
+Answer: ","emotion_appeal"
+"64_NLP_38_B_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: If oral medications and lifestyle adjustments are insufficient, transitioning to insulin may be considered to better control blood sugar levels and prevent complications.
+Client: I'm still not comfortable with trying insulin despite the benefits.
+Counselor: I understand your discomfort, but using insulin could significantly improve your long-term health and quality of life.
+Client: I don't think I'm ready to try insulin just yet.
+Answer: ","emotion_appeal"
+"64_NLP_38_B_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your discomfort, but using insulin could significantly improve your long-term health and quality of life.
+Client: I don't think I'm ready to try insulin just yet.
+Counselor: I understand your hesitation, but your health is so important, and insulin could help you achieve better blood sugar control and prevent future complications.
+Client: I appreciate your concern, but I'm still not ready to try insulin.
+Answer: ","ask_concerns"
+"64_NLP_38_B_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation, but your health is so important, and insulin could help you achieve better blood sugar control and prevent future complications.
+Client: I appreciate your concern, but I'm still not ready to try insulin.
+Counselor: Could you share more about what's making you hesitant to try insulin?
+Client: I'm concerned about the potential for low blood sugar during my walks and not wanting to consume sweets.
+Answer: ","propose"
+"64_NLP_38_B_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; deny_to_try; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Could you share more about what's making you hesitant to try insulin?
+Client: I'm concerned about the potential for low blood sugar during my walks and not wanting to consume sweets.
+Counselor: Given your concerns, trying insulin with guidance from your healthcare provider could help you manage blood sugar levels effectively without compromising your walks.
+Client: I'm still not ready to try insulin due to my concerns.
+Answer: ","logical_appeal"
+"23_NLP_12_A_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"23_NLP_12_A_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Good morning!
+Client: Good morning!
+Answer: ","propose"
+"23_NLP_12_A_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; propose; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Good morning!
+Client: Good morning!
+Counselor: While improving diet and exercise is beneficial, starting insulin can help achieve better blood sugar control if these efforts aren't enough.
+Client: Can you explain more about how insulin can improve my blood sugar control?
+Answer: ","provide_insulin_information"
+"23_NLP_12_A_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; express_interest; provide_insulin_information; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: While improving diet and exercise is beneficial, starting insulin can help achieve better blood sugar control if these efforts aren't enough.
+Client: Can you explain more about how insulin can improve my blood sugar control?
+Counselor: Insulin helps your body regulate blood sugar levels more effectively, which can prevent complications and allow for adjustments to medication over time for optimal control.
+Client: That sounds important; could you explain how I might balance this with my current lifestyle?
+Answer: ","suggest_a_solution"
+"23_NLP_12_A_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; express_interest; suggest_a_solution; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Insulin helps your body regulate blood sugar levels more effectively, which can prevent complications and allow for adjustments to medication over time for optimal control.
+Client: That sounds important; could you explain how I might balance this with my current lifestyle?
+Counselor: Incorporating shorter, consistent exercise sessions like 30 minutes a day, five days a week, can help you manage your health alongside insulin.
+Client: What strategies can help me maintain a consistent diet and manage occasional lapses, especially during holidays and special occasions?
+Answer: ","suggest_a_solution"
+"23_NLP_12_A_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; request_information; suggest_a_solution; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Incorporating shorter, consistent exercise sessions like 30 minutes a day, five days a week, can help you manage your health alongside insulin.
+Client: What strategies can help me maintain a consistent diet and manage occasional lapses, especially during holidays and special occasions?
+Counselor: Planning meals ahead and choosing healthier options even during special occasions can help maintain a consistent diet.
+Client: I'd like to hear more about specific meal planning tips for holidays and special occasions.
+Answer: ","express_interest"
+"23_NLP_12_A_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; express_interest; express_interest; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Planning meals ahead and choosing healthier options even during special occasions can help maintain a consistent diet.
+Client: I'd like to hear more about specific meal planning tips for holidays and special occasions.
+Counselor: I'm glad you're interested! Let's discuss some practical meal planning tips for holidays and special occasions.
+Client: I'm really keen to know more about these meal planning tips and how to handle occasional lapses.
+Answer: ","express_interest"
+"23_NLP_12_A_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_interest; express_interest; express_interest; thank}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I'm glad you're interested! Let's discuss some practical meal planning tips for holidays and special occasions.
+Client: I'm really keen to know more about these meal planning tips and how to handle occasional lapses.
+Counselor: I'm happy to dive into specific meal planning tips for holidays and how to handle occasional lapses to support your health.
+Client: Thank you, I appreciate your help on this.
+Answer: ","thank"
+"23_NLP_12_A_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_interest; thank; thank; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I'm happy to dive into specific meal planning tips for holidays and how to handle occasional lapses to support your health.
+Client: Thank you, I appreciate your help on this.
+Counselor: Thank you for your willingness to learn more about managing your health.
+Client: Could you also suggest some strategies to incorporate more regular exercise into my routine given my sedentary job and busy schedule?
+Answer: ","suggest_a_solution"
+"23_NLP_12_A_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {thank; request_information; suggest_a_solution; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Thank you for your willingness to learn more about managing your health.
+Client: Could you also suggest some strategies to incorporate more regular exercise into my routine given my sedentary job and busy schedule?
+Counselor: How about starting with shorter, manageable sessions like 30 minutes a day, five days a week, and using breaks or weekends for activities like walking?
+Client: That sounds doable, could you give me more examples of activities I can do during breaks or weekends?
+Answer: ","provide_information"
+"23_NLP_12_A_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; express_interest; provide_information; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: How about starting with shorter, manageable sessions like 30 minutes a day, five days a week, and using breaks or weekends for activities like walking?
+Client: That sounds doable, could you give me more examples of activities I can do during breaks or weekends?
+Counselor: You can try activities like brisk walking, stretching exercises, or even short bodyweight workouts that can be done without equipment.
+Client: Those sound like good ideas, I'd love to hear more about specific exercises I can do during my breaks.
+Answer: ","express_interest"
+"17_NLP_09_A_conv.json","2","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client:  Hello, How is it going?
+Answer: ","greet"
+"17_NLP_09_A_conv.json","4","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client:  Hello, How is it going? 
+Counselor: Hello! I'm doing well, thank you. How are you today?
+Client: I have some concerns about my diabetes management; can you help me with them?
+Answer: ","express_interest"
+"17_NLP_09_A_conv.json","6","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; request_information; express_interest; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello! I'm doing well, thank you. How are you today?
+Client: I have some concerns about my diabetes management; can you help me with them?
+Counselor: Of course, I'd be happy to help; what specific concerns do you have about your diabetes management?
+Client: What steps can we take to better control my high blood sugar levels, given my HbA1c is 10.3 mmol/L and fasting blood sugar is 12 mmol/L?
+Answer: ","propose"
+"17_NLP_09_A_conv.json","8","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {express_interest; request_information; propose; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Of course, I'd be happy to help; what specific concerns do you have about your diabetes management?
+Client: What steps can we take to better control my high blood sugar levels, given my HbA1c is 10.3 mmol/L and fasting blood sugar is 12 mmol/L?
+Counselor: I suggest trying insulin to better control your blood sugar levels, aiming for fasting levels between 4 to 7 mmol/L.
+Client: Can you provide more information and reassurance about insulin therapy to help me feel more comfortable with starting this treatment?
+Answer: ","provide_insulin_information"
+"17_NLP_09_A_conv.json","10","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; express_interest; provide_insulin_information; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I suggest trying insulin to better control your blood sugar levels, aiming for fasting levels between 4 to 7 mmol/L.
+Client: Can you provide more information and reassurance about insulin therapy to help me feel more comfortable with starting this treatment?
+Counselor: Insulin is a natural hormone essential for managing diabetes effectively, and modern delivery methods are simple and can help achieve better blood sugar control.
+Client: That sounds promising; could you tell me more about how insulin therapy works and its potential side effects?
+Answer: ","provide_insulin_information"
+"17_NLP_09_A_conv.json","12","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; express_interest; provide_insulin_information; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Insulin is a natural hormone essential for managing diabetes effectively, and modern delivery methods are simple and can help achieve better blood sugar control.
+Client: That sounds promising; could you tell me more about how insulin therapy works and its potential side effects?
+Counselor: Insulin therapy works by helping your body use glucose more effectively, and while side effects can include low blood sugar and weight gain, these can be managed with proper monitoring and adjustments.
+Client: I appreciate the information; I'd love to learn more about how to manage those side effects effectively.
+Answer: ","suggest_a_solution"
+"17_NLP_09_A_conv.json","14","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; express_interest; suggest_a_solution; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Insulin therapy works by helping your body use glucose more effectively, and while side effects can include low blood sugar and weight gain, these can be managed with proper monitoring and adjustments.
+Client: I appreciate the information; I'd love to learn more about how to manage those side effects effectively.
+Counselor: You can manage side effects by frequently monitoring your blood sugar levels, adjusting insulin dosage, and incorporating regular exercise and dietary changes.
+Client: What can be done to manage my frequent urination and sudden urgency, which I believe are related to my high blood sugar levels?
+Answer: ","propose"
+"17_NLP_09_A_conv.json","16","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: You can manage side effects by frequently monitoring your blood sugar levels, adjusting insulin dosage, and incorporating regular exercise and dietary changes.
+Client: What can be done to manage my frequent urination and sudden urgency, which I believe are related to my high blood sugar levels?
+Counselor: Frequent urination and sudden urgency often improve with better blood sugar control, which can be achieved by starting insulin therapy.
+Client: I’m still hesitant about starting insulin therapy.
+Answer: ","ask_concerns"
+"17_NLP_09_A_conv.json","18","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; ask_concerns; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Frequent urination and sudden urgency often improve with better blood sugar control, which can be achieved by starting insulin therapy.
+Client: I’m still hesitant about starting insulin therapy.
+Counselor: What specific concerns do you have about starting insulin therapy?
+Client: My main concern is about managing the side effects and the lifestyle changes required.
+Answer: ","offer_relief"
+"17_NLP_09_A_conv.json","20","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; express_interest; offer_relief; neutral_to_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: What specific concerns do you have about starting insulin therapy?
+Client: My main concern is about managing the side effects and the lifestyle changes required.
+Counselor: It's understandable to have concerns, but with proper guidance and support, managing side effects and lifestyle changes can become much easier.
+Client: I understand that, but I'm still not completely convinced.
+Answer: ","logical_appeal"
+"36_NLP_23_B_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"36_NLP_23_B_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Good evening!
+Client: Good evening!
+Answer: ","propose"
+"36_NLP_23_B_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; propose; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Good evening!
+Client: Good evening!
+Counselor: Considering adding insulin to your current diabetes management plan could significantly improve your blood sugar control and help prevent complications.
+Client: What are the chances that I will need to transition from Metformin to insulin, and what are the implications of becoming insulin-dependent?
+Answer: ","ask_concerns"
+"36_NLP_23_B_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; request_information; ask_concerns; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Considering adding insulin to your current diabetes management plan could significantly improve your blood sugar control and help prevent complications.
+Client: What are the chances that I will need to transition from Metformin to insulin, and what are the implications of becoming insulin-dependent?
+Counselor: I understand your concern; do you have any specific worries about transitioning to insulin?
+Client: What steps can I take to monitor and prevent long-term complications like eye, kidney, and nerve damage from diabetes?
+Answer: ","provide_insulin_information"
+"36_NLP_23_B_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; request_information; provide_insulin_information; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your concern; do you have any specific worries about transitioning to insulin?
+Client: What steps can I take to monitor and prevent long-term complications like eye, kidney, and nerve damage from diabetes?
+Counselor: To monitor and prevent long-term complications, regular blood sugar and kidney function tests, proper adherence to medication, and maintaining a healthy lifestyle are essential.
+Client: How can I effectively manage and prevent low blood sugar levels while using insulin?
+Answer: ","provide_insulin_information"
+"36_NLP_23_B_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; request_information; provide_insulin_information; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: To monitor and prevent long-term complications, regular blood sugar and kidney function tests, proper adherence to medication, and maintaining a healthy lifestyle are essential.
+Client: How can I effectively manage and prevent low blood sugar levels while using insulin?
+Counselor: You can effectively manage and prevent low blood sugar levels while using insulin by eating regularly, injecting insulin at the correct times, and closely monitoring your blood sugar levels.
+Client: I'm still hesitant about trying insulin despite the benefits.
+Answer: ","emotion_appeal"
+"36_NLP_23_B_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: You can effectively manage and prevent low blood sugar levels while using insulin by eating regularly, injecting insulin at the correct times, and closely monitoring your blood sugar levels.
+Client: I'm still hesitant about trying insulin despite the benefits.
+Counselor: I understand your hesitation, but trying insulin could significantly enhance your health and prevent serious complications, allowing you to enjoy a better quality of life.
+Client: I'm not ready to try insulin right now.
+Answer: ","ask_about_consequence"
+"36_NLP_23_B_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; ask_about_consequence; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation, but trying insulin could significantly enhance your health and prevent serious complications, allowing you to enjoy a better quality of life.
+Client: I'm not ready to try insulin right now.
+Counselor: What do you think the long-term effects might be on your health if your diabetes remains uncontrolled?
+Client: I'm still not convinced that insulin is the right option for me.
+Answer: ","logical_appeal"
+"36_NLP_23_B_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_about_consequence; deny_to_try; logical_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: What do you think the long-term effects might be on your health if your diabetes remains uncontrolled?
+Client: I'm still not convinced that insulin is the right option for me.
+Counselor: Uncontrolled diabetes can damage your kidneys more than the medications themselves, so managing blood sugar effectively with insulin could be crucial for your overall health.
+Client: I understand the risks, but I'm still not ready to try insulin at this moment.
+Answer: ","offer_relief"
+"36_NLP_23_B_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; deny_to_try; offer_relief; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Uncontrolled diabetes can damage your kidneys more than the medications themselves, so managing blood sugar effectively with insulin could be crucial for your overall health.
+Client: I understand the risks, but I'm still not ready to try insulin at this moment.
+Counselor: It's okay to take your time in making this decision; we're here to support you and provide any information you need.
+Client: I'm not ready to try insulin right now.
+Answer: ","ask_concerns"
+"36_NLP_23_B_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: It's okay to take your time in making this decision; we're here to support you and provide any information you need.
+Client: I'm not ready to try insulin right now.
+Counselor: Can you share more about what specifically worries you about starting insulin?
+Client: I just don't feel comfortable with the idea of injecting myself regularly.
+Answer: ","offer_relief"
+"52_NLP_31_B_conv.json","2","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: hi
+Answer: ","greet"
+"52_NLP_31_B_conv.json","4","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: hi
+Counselor: Hello! How are you doing today?
+Client: Can you provide guidance on how to increase the frequency of my exercise routine to better manage my diabetes?
+Answer: ","propose"
+"52_NLP_31_B_conv.json","6","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello! How are you doing today?
+Client: Can you provide guidance on how to increase the frequency of my exercise routine to better manage my diabetes?
+Counselor: In addition to increasing your exercise routine, have you considered trying insulin for better management of your blood sugar levels?
+Client: I'm not sure about trying insulin due to a list of concerns I have.
+Answer: ","ask_concerns"
+"52_NLP_31_B_conv.json","8","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; ask_concerns; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: In addition to increasing your exercise routine, have you considered trying insulin for better management of your blood sugar levels?
+Client: I'm not sure about trying insulin due to a list of concerns I have.
+Counselor: What concerns do you have about trying insulin?
+Client: What steps can I take to bring my blood sugar levels below the target, especially before lunch?
+Answer: ","propose"
+"52_NLP_31_B_conv.json","10","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: What concerns do you have about trying insulin?
+Client: What steps can I take to bring my blood sugar levels below the target, especially before lunch?
+Counselor: To bring your blood sugar levels below the target, especially before lunch, trying insulin along with diet and exercise could be an effective solution.
+Client: I'm still hesitant about trying insulin.
+Answer: ","emotion_appeal"
+"52_NLP_31_B_conv.json","12","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: To bring your blood sugar levels below the target, especially before lunch, trying insulin along with diet and exercise could be an effective solution.
+Client: I'm still hesitant about trying insulin.
+Counselor: I understand your hesitation, but managing your diabetes effectively with insulin can help prevent complications and improve your overall quality of life.
+Client: I'm still not convinced about trying insulin just yet.
+Answer: ","logical_appeal"
+"52_NLP_31_B_conv.json","14","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; logical_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation, but managing your diabetes effectively with insulin can help prevent complications and improve your overall quality of life.
+Client: I'm still not convinced about trying insulin just yet.
+Counselor: For some patients, especially those with high HbA1c levels despite maximum oral medication, insulin may be necessary for better control.
+Client: I'm still not ready to try insulin at this point.
+Answer: ","ask_concerns"
+"52_NLP_31_B_conv.json","16","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: For some patients, especially those with high HbA1c levels despite maximum oral medication, insulin may be necessary for better control.
+Client: I'm still not ready to try insulin at this point.
+Counselor: Could you share more about what makes you hesitant to try insulin?
+Client: I'm worried about the persistent presence of protein in my urine and how insulin might affect that.
+Answer: ","offer_relief"
+"52_NLP_31_B_conv.json","18","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; deny_to_try; offer_relief; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Could you share more about what makes you hesitant to try insulin?
+Client: I'm worried about the persistent presence of protein in my urine and how insulin might affect that.
+Counselor: Proper management of blood sugar levels through medication like insulin, along with diet and lifestyle changes, can actually help protect your kidneys from further damage.
+Client: I'm not ready to try insulin right now.
+Answer: ","ask_concerns"
+"52_NLP_31_B_conv.json","20","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; deny_to_try; ask_concerns; end_conversation}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Proper management of blood sugar levels through medication like insulin, along with diet and lifestyle changes, can actually help protect your kidneys from further damage.
+Client: I'm not ready to try insulin right now.
+Counselor: Is there anything else specifically that concerns you about starting insulin?
+Client: I think I need more time to consider all this. Thank you for your help.
+Answer: ","thank"
+"27_NLP_17_A_conv.json","2","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello, thank you for seeing me today.
+Answer: ","greet"
+"27_NLP_17_A_conv.json","4","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; greet; express_interest}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Client: Hello, thank you for seeing me today.
+Counselor: Hello! I'm glad you came in today.
+Client: I have some concerns about trying insulin and would like to discuss other ways to manage my high blood sugar levels, which have reached 9.3 mmol/L.
+Answer: ","logical_appeal"
+"27_NLP_17_A_conv.json","6","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; express_interest; logical_appeal; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Hello! I'm glad you came in today.
+Client: I have some concerns about trying insulin and would like to discuss other ways to manage my high blood sugar levels, which have reached 9.3 mmol/L.
+Counselor: I understand your concerns, but consistently high glucose readings like 9.3 mmol/L can lead to serious long-term complications, and insulin has been proven effective in managing these levels.
+Client: What can be done to better manage my increasingly high blood sugar levels, which have reached 9.3 mmol/L?
+Answer: ","propose"
+"27_NLP_17_A_conv.json","8","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {logical_appeal; request_information; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your concerns, but consistently high glucose readings like 9.3 mmol/L can lead to serious long-term complications, and insulin has been proven effective in managing these levels.
+Client: What can be done to better manage my increasingly high blood sugar levels, which have reached 9.3 mmol/L?
+Counselor: I suggest trying insulin along with a strict diet and regular exercise to better manage your high blood sugar levels.
+Client: I'm really hesitant about trying insulin and would prefer to explore other options first.
+Answer: ","emotion_appeal"
+"27_NLP_17_A_conv.json","10","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I suggest trying insulin along with a strict diet and regular exercise to better manage your high blood sugar levels.
+Client: I'm really hesitant about trying insulin and would prefer to explore other options first.
+Counselor: I understand your hesitation, but proactively managing your high blood sugar levels now with insulin can significantly reduce the risk of long-term complications and improve your overall health.
+Client: I'm still not convinced about trying insulin just yet.
+Answer: ","ask_concerns"
+"27_NLP_17_A_conv.json","12","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your hesitation, but proactively managing your high blood sugar levels now with insulin can significantly reduce the risk of long-term complications and improve your overall health.
+Client: I'm still not convinced about trying insulin just yet.
+Counselor: Can you share what specific concerns you have about trying insulin?
+Client: I'm worried about the side effects and the idea of having to inject myself regularly.
+Answer: ","offer_relief"
+"27_NLP_17_A_conv.json","14","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_concerns; deny_to_try; offer_relief; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Can you share what specific concerns you have about trying insulin?
+Client: I'm worried about the side effects and the idea of having to inject myself regularly.
+Counselor: It's understandable to have these worries, but many people find that insulin injections become a manageable part of their routine, and the side effects are often minimal compared to the benefits of better blood sugar control.
+Client: I still have reservations about starting insulin, so I'd like to explore alternative methods first.
+Answer: ","emotion_appeal"
+"27_NLP_17_A_conv.json","16","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {offer_relief; deny_to_try; emotion_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: It's understandable to have these worries, but many people find that insulin injections become a manageable part of their routine, and the side effects are often minimal compared to the benefits of better blood sugar control.
+Client: I still have reservations about starting insulin, so I'd like to explore alternative methods first.
+Counselor: I understand your reservations, but taking control of your health now with insulin can help you lead a healthier and more fulfilling life.
+Client: I appreciate your advice, but I would still prefer to explore alternative methods before considering insulin.
+Answer: ","ask_about_consequence"
+"27_NLP_17_A_conv.json","18","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {emotion_appeal; deny_to_try; ask_about_consequence; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I understand your reservations, but taking control of your health now with insulin can help you lead a healthier and more fulfilling life.
+Client: I appreciate your advice, but I would still prefer to explore alternative methods before considering insulin.
+Counselor: What do you think could be the long-term effects of continuing with high blood sugar levels without trying insulin?
+Client: I really don't want to start insulin right now and would like to focus on other methods first.
+Answer: ","logical_appeal"
+"27_NLP_17_A_conv.json","20","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_about_consequence; deny_to_try; logical_appeal; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: What do you think could be the long-term effects of continuing with high blood sugar levels without trying insulin?
+Client: I really don't want to start insulin right now and would like to focus on other methods first.
+Counselor: Considering that consistently high blood sugar levels can lead to serious complications, wouldn't it be logical to try insulin to prevent these outcomes?
+Client: I still don't want to start insulin at this time.
+Answer: ","support"
+"45_NLP_28_B_conv.json","1","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {[CONVSTART]}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: 
+Answer: ","greet"
+"45_NLP_28_B_conv.json","3","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor:  Hello, How have you been?
+Client: Could you help me determine if my insulin pen is functioning correctly, as sometimes the insulin trickles out instead of spraying?
+Answer: ","provide_insulin_information"
+"45_NLP_28_B_conv.json","5","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {greet; request_information; provide_insulin_information; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor:  Hello, How have you been?
+Client: Could you help me determine if my insulin pen is functioning correctly, as sometimes the insulin trickles out instead of spraying?
+Counselor: To ensure proper insulin pen function and correct injection technique, always prime the pen before each injection to check for proper insulin flow.
+Client: Why are my fasting blood sugar levels sometimes as high as 9 mmol/L, and how can I manage this inconsistency?
+Answer: ","suggest_a_solution"
+"45_NLP_28_B_conv.json","7","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {provide_insulin_information; request_information; suggest_a_solution; request_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: To ensure proper insulin pen function and correct injection technique, always prime the pen before each injection to check for proper insulin flow.
+Client: Why are my fasting blood sugar levels sometimes as high as 9 mmol/L, and how can I manage this inconsistency?
+Counselor: Increasing the insulin dosage slightly and incorporating lifestyle changes like regular exercise and dietary adjustments can help achieve better glycemic control.
+Client: Should I be taking 12 or 14 units of insulin for my current condition?
+Answer: ","ask_for_confirmation"
+"45_NLP_28_B_conv.json","9","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {suggest_a_solution; request_information; ask_for_confirmation; acknowledge}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Increasing the insulin dosage slightly and incorporating lifestyle changes like regular exercise and dietary adjustments can help achieve better glycemic control.
+Client: Should I be taking 12 or 14 units of insulin for my current condition?
+Counselor: Have you been regularly monitoring your blood sugar levels to determine the correct dosage?
+Client: Yes, I have been monitoring my blood sugar levels regularly.
+Answer: ","propose"
+"45_NLP_28_B_conv.json","11","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {ask_for_confirmation; acknowledge; propose; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Have you been regularly monitoring your blood sugar levels to determine the correct dosage?
+Client: Yes, I have been monitoring my blood sugar levels regularly.
+Counselor: Since your fasting blood sugar levels are sometimes high, adjusting your insulin dosage while maintaining a consistent routine with diet and exercise could be beneficial.
+Client: I'm still not sure about adjusting the insulin dosage myself.
+Answer: ","propose"
+"45_NLP_28_B_conv.json","13","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; deny_to_try; propose; acknowledge}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Since your fasting blood sugar levels are sometimes high, adjusting your insulin dosage while maintaining a consistent routine with diet and exercise could be beneficial.
+Client: I'm still not sure about adjusting the insulin dosage myself.
+Counselor: I suggest consulting your healthcare professional to help you adjust the insulin dosage safely and effectively.
+Client: Thank you, I will consult my healthcare professional for the proper dosage adjustment.
+Answer: ","thank"
+"45_NLP_28_B_conv.json","15","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {propose; acknowledge; thank; end_conversation}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: I suggest consulting your healthcare professional to help you adjust the insulin dosage safely and effectively.
+Client: Thank you, I will consult my healthcare professional for the proper dosage adjustment.
+Counselor: Thank you for understanding the importance of consulting your healthcare professional.
+Client: Goodbye and take care!
+Answer: ","end_conversation"
+"45_NLP_28_B_conv.json","17","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {thank; end_conversation; end_conversation; end_conversation}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Thank you for understanding the importance of consulting your healthcare professional.
+Client: Goodbye and take care!
+Counselor: Goodbye and take care!
+Client: Goodbye and take care!
+Answer: ","end_conversation"
+"45_NLP_28_B_conv.json","19","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {end_conversation; end_conversation; end_conversation; neutral_to_information}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Goodbye and take care!
+Client: Goodbye and take care!
+Counselor: Goodbye and take care!
+Client: I still have concerns about trying insulin.
+Answer: ","ask_concerns"
+"45_NLP_28_B_conv.json","21","Question: What dialog act must the Counselor use from the list of acts and their definitions given below? The last few acts were {end_conversation; neutral_to_information; ask_concerns; deny_to_try}
+List of acts are ""greet; thank; general_agreement; neutral_to_information; counter_information; chitchat; acknowledge; closing; end_conversation; request_information; provide_information; express_interest; provide_insulin_information; ask_concerns; propose; personal_related_inquiry; task_related_inquiry; logical_appeal; emotion_appeal; credibility_appeal; ask_about_consequence; ask_about_antecedent; ask_for_confirmation; suggest_a_solution; suggest_a_reason; express_concern; offer_relief; sympathize; support; amplify_excitement; motivate; compliment""?
+Conversation: Counselor: Goodbye and take care!
+Client: I still have concerns about trying insulin.
+Counselor: What specifically concerns you about trying insulin?
+Client: I am concerned that my fasting blood sugar levels are inconsistent despite insulin.
+Answer: ","offer_relief"
