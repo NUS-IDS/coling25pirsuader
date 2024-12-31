@@ -18,4 +18,4 @@ wandb==0.15.11
 accelerate==0.28.0
 peft==0.5.0
 
-The pip list of our environment is included.
+The pip list of our environment is <a href="pip_list.txt">included</a>.
