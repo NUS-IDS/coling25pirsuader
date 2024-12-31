@@ -1,9 +1,9 @@
-This repository contains the code and data for our paper shared under Academic Free License:
+This repository contains the code and data shared under Academic Free License
+ for our COLING 2025 paper:
 <br>
 <b><i>PIRsuader: A Persuasive Chatbot for Mitigating Psychological Insulin
-Resistance in Type-2 Diabetic Patients</i></b> published in COLING 2025
+Resistance in Type-2 Diabetic Patients</i></b> 
 <hr>
-
 <b>Setup</b>:
 The code shared above runs successfully with the following library versions on <b>Python 3.11.4</b> 
 
