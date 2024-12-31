@@ -4,18 +4,18 @@ This repository contains the code and data for our paper:
 Resistance in Type-2 Diabetic Patients'' published in COLING 2025
 
 --
-The code shared above runs successfully with the following library versions and Python 3.11.4 
+The code shared above runs successfully with the following library versions on <b>Python 3.11.4</b> 
 
-openai==0.28.0
-nltk==3.8.1
-pytorch-transformers==1.2.0
-torch==2.0.1
-torchvision==0.15.2
-trl==0.9.6
-sentence-transformers==2.2.2
-transformers==4.39.3
-wandb==0.15.11
-accelerate==0.28.0
-peft==0.5.0
+openai==0.28.0 <br>
+nltk==3.8.1<br>
+pytorch-transformers==1.2.0<br>
+torch==2.0.1<br>
+torchvision==0.15.2<br>
+trl==0.9.6<br>
+sentence-transformers==2.2.2<br>
+transformers==4.39.3<br>
+wandb==0.15.11<br>
+accelerate==0.28.0<br>
+peft==0.5.0<br>
 
 The pip list of our environment is <a href="pip_list.txt">included</a>.
