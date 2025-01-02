@@ -1,4 +1,4 @@
-To run conversation generation loops, provide directory paths to data (example, patient_data shared in data folder) and 
+To run conversation generation loops, provide directory paths to data (example, <a href="../../data/patient_data">patient_data</a>) and 
 the openai details in <b>RunConfig</b>.
 
 The <b>DefaultCG</b> does not use dialog act prediction and relies directly on OpenAI model's inherent
