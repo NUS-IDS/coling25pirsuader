@@ -21,3 +21,16 @@ peft==0.5.0<br>
 
 The pip list of our environment is <a href="pip_list.txt">included</a>.
 <hr>
+<b>How to run</b>:
+Generally speaking, we provide each "executable" with a configuration file where you need to specify details such as 
+OPENAI key or hugging-face model names.
+The three main executables (referencing the paper) will be related to:
+<ol>
+ <li>Conversation Generation (with or without predicted dialog acts--convgen directory)</li>
+ <li>Dialog act prediction model (initial model--dacts directory, further fine-tuning using Reinforcement Learning--RL directory)</li>
+ <li>Reward modeling (--CAR and PBR subdirectories in rewards directory)</li>
+</ol>
+
+
+
+
