@@ -24,7 +24,7 @@ The pip list of our environment is <a href="pip_list.txt">included</a>.
 <b>How to run</b>:
 Generally speaking, we provide each "executable" with a configuration file where you need to specify details such as 
 OPENAI key or hugging-face model names.
-The three main executables (referencing the paper) will be related to:
+The three main executables will be related to:
 <ol>
  <li>Conversation Generation (with or without predicted dialog acts--<i>convgen</i> directory)</li>
  <li>Dialog act prediction model (initial model--<i>dact</i>i> directory, further fine-tuning using Reinforcement Learning--<i>RL</i> directory)</li>
