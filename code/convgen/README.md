@@ -4,7 +4,7 @@ the openai details in <b>RunConfig</b>.
 The <b>DefaultCG</b> does not use dialog act prediction and relies directly on OpenAI model's inherent
 capabilities to generate patient-counselor conversation. Therefore, a dialog act model path is not needed.
 
-For conversation generation using predicted dialog acts, use the code in <b>CGWithPredictedActs</b> and specify the
+For conversation generation using predicted dialog acts, use <b>CGWithPredictedActs</b> and specify the
 model path in RunConfig.
 
 To train the initial dialog act model, use code in <a href="../dact">dact</a>.<br>
