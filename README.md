@@ -31,6 +31,8 @@ The three main executables will be related to:
  <li>Reward modeling (--CAR and PBR subdirectories in <i>rewards</i> directory)</li>
 </ol>
 
+Please find the details in "README"s for each directory.
+
 
 
 
