@@ -27,7 +27,7 @@ OPENAI key or hugging-face model names.
 The three main executables will be related to:
 <ol>
  <li>Conversation Generation (with or without predicted dialog acts--<i>convgen</i> directory)</li>
- <li>Dialog act prediction model (initial model--<i>dact</i>i> directory, further fine-tuning using Reinforcement Learning--<i>RL</i> directory)</li>
+ <li>Dialog act prediction model (initial model--<i>dact</i> directory, further fine-tuning using Reinforcement Learning--<i>RL</i> directory)</li>
  <li>Reward modeling (--CAR and PBR subdirectories in <i>rewards</i> directory)</li>
 </ol>
 
