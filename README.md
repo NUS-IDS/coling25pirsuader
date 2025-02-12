@@ -4,6 +4,8 @@ This repository contains the code and data shared under Academic Free License
 <b><i>PIRsuader: A Persuasive Chatbot for Mitigating Psychological Insulin
 Resistance in Type-2 Diabetic Patients</i></b> 
 <hr>
+A demo of PIRsuader setup on NAO robot by Mouad Hakam is <a href="nao_demo_short.mp4">here</a>
+
 <b>Setup</b>:
 The code shared above runs successfully with the following library versions on <b>Python 3.11.4</b> 
 
