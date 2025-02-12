@@ -7,7 +7,7 @@ Resistance in Type-2 Diabetic Patients</i></b>
 A demo of PIRsuader setup on NAO robot by Mouad Hakam is <a href="nao_demo_short.mp4">here</a>
 
 <b>Setup</b>:
-The code shared above runs successfully with the following library versions on <b>Python 3.11.4</b> 
+The shared code runs successfully with the following library versions on <b>Python 3.11.4</b> 
 
 openai==0.28.0 <br>
 nltk==3.8.1<br>
